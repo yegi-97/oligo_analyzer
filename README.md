@@ -84,3 +84,7 @@ Produces `dist/OligoAnalyzer.exe` (single file, no console). The spec was genera
 `--onefile --windowed --collect-all primer3`; `--collect-all primer3` is required because
 primer3 silently drops its functions when its compiled submodules are missing. Biopython pulls
 in numpy, so the exe is about 27 MB.
+
+## license
+
+not implemented
