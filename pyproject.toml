@@ -1,0 +1,22 @@
+[project]
+name = "bootlog-oligo-analyzer"
+version = "0.1.0"
+description = "Tkinter oligo analyzer: Tm, GC, LNA, hairpins and dimers (primer3, Biopython)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "biopython>=1.88",
+    "primer3-py>=2.3.1",
+]
+
+[project.scripts]
+bootlog-oligo-analyzer = "bootlog_oligo_analyzer:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.3",
+]
