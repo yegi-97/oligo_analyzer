@@ -1,3 +1,3 @@
-from bootlog_oligo_analyzer.main import main
+from bootlog_oligo_analyzer import main
 
 main()

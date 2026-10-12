@@ -5,8 +5,11 @@ Slim Tkinter tool for oligo/primer analysis based on [primer3-py](https://github
 ## Run
 
 ```
-uv run bootlog-oligo-analyzer
+uv run main.py
 ```
+
+Alternatives: `uv run bootlog-oligo-analyzer` (installed script) or
+`uv run python -m bootlog_oligo_analyzer`.
 
 ## Input
 
